@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="logo">
           <Link to="/" onClick={closeMenu}>
-            <img src="https://res.cloudinary.com/doyaebals/image/upload/v1782369824/logo.jpg_r94i6x.jpg" alt="Vajra Dental" />
+            <img src="https://res.cloudinary.com/doyaebals/image/upload/f_auto,q_auto,w_400/v1782369824/logo.jpg_r94i6x.jpg" alt="Vajra Dental" />
           </Link>
         </div>
 

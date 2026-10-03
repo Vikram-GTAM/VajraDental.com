@@ -73,8 +73,9 @@ const Hero = () => {
 
         <div className="hero-image">
           <img
-            src="https://res.cloudinary.com/doyaebals/image/upload/v1782369237/ChatGPT_Image_Jun_25_2026_12_03_10_PM_r7lvvc.png"
+            src="https://res.cloudinary.com/doyaebals/image/upload/f_auto,q_auto,w_1200/v1782369237/ChatGPT_Image_Jun_25_2026_12_03_10_PM_r7lvvc.png"
             alt="Vajra Dental"
+            fetchPriority="high"
           />
         </div>
       </div>

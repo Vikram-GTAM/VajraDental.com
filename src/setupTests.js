@@ -3,3 +3,8 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
+import { TextEncoder, TextDecoder } from 'util';
+
+// React Router v7 needs these globals, which Jest 27's jsdom does not provide.
+Object.assign(global, { TextEncoder, TextDecoder });
+window.scrollTo = () => {};

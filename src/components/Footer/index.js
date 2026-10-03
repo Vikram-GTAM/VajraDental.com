@@ -18,9 +18,10 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="footer-brand">
             <img
-              src="https://res.cloudinary.com/doyaebals/image/upload/v1782369824/logo.jpg_r94i6x.jpg"
+              src="https://res.cloudinary.com/doyaebals/image/upload/f_auto,q_auto,w_400/v1782369824/logo.jpg_r94i6x.jpg"
               alt="Vajra Dental"
               className="footer-logo"
+              loading="lazy"
             />
 
             <p>

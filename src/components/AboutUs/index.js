@@ -88,8 +88,9 @@ const AboutUs = () => {
 
                 <div className="story-image">
                     <img
-                    src="https://res.cloudinary.com/doyaebals/image/upload/v1782371109/ChatGPT_Image_Jun_25_2026_12_34_38_PM_foeiqa.png"
+                    src="https://res.cloudinary.com/doyaebals/image/upload/f_auto,q_auto,w_1200/v1782371109/ChatGPT_Image_Jun_25_2026_12_34_38_PM_foeiqa.png"
                     alt="Vajra Dental Clinic"
+                    loading="lazy"
                     />
                 </div>
 

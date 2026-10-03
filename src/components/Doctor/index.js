@@ -9,8 +9,9 @@ const Doctor = () => {
 
           <div className="doctor-image">
             <img
-              src="https://res.cloudinary.com/doyaebals/image/upload/v1782370528/ChatGPT_Image_Jun_25_2026_12_25_13_PM_f9fupb.png"
+              src="https://res.cloudinary.com/doyaebals/image/upload/f_auto,q_auto,w_1200/v1782370528/ChatGPT_Image_Jun_25_2026_12_25_13_PM_f9fupb.png"
               alt="Dr. Abhishek Poddaturi"
+              loading="lazy"
             />
           </div>
 

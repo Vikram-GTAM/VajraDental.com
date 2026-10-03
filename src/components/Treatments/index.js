@@ -78,7 +78,7 @@ const Treatments = () => {
         <div className="view-services">
           <button
             className="services-btn"
-            onClick={() => navigate("/services")}
+            onClick={() => navigate("/general-dentistry")}
           >
             View All Services →
           </button>
